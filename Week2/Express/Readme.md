@@ -1,3 +1,4 @@
+1
 1. GET /static -> return “Hello World”  
 2. GET /staticJSON -> return JSON of {text:”Hello World”}  
 3. GET /echo?text=Heyyyy -> return any string in text variable, i.e., “Heyyyy”  
@@ -19,3 +20,13 @@
 19. POST /countFields for counting the number of fields that submit via req.body (raw as the JSON object) for example,  
 20. POST /countFields BODY {“a”:1,”b”:2,”c”:3} -> 3  
 21. POST /countFields BODY {“a”:1,”b”:2,”c”:3,”d”:5} -> 4  
+
+2
+// เขียน Express แบบ MVC แต่ตอนทำงาน จะเรียก reqres.in แบบ 1 resource (User)
+
+// เขียน Insertion Sort
+
+// เขียน Merge Sort
+
+// ทำโจทย์ programming.in.th ข้อ 0011 ถึง 0020
+// https://programming.in.th/task/rev2_problemset.php
